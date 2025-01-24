@@ -1,0 +1,499 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Multiple Currencies\n"
+"POT-Creation-Date: 2022-12-30 09:43+0100\n"
+"PO-Revision-Date: 2019-04-04 09:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-multiple-currencies.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/admin/ActivationPage.php:50 classes/admin/ActivationPage.php:51
+#: classes/admin/ActivationPage.php:99
+msgid " Activator"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:79
+msgid "Purchase code is invalid!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:80
+msgid "Buyer name is invalid!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:81
+msgid "Item id is invalid!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:82
+msgid ""
+"Max number of domains reached! You have to purchase a new license. The "
+"current license has been activated in the following domains: "
+msgstr ""
+
+#: classes/admin/ActivationPage.php:83 classes/admin/ActivationPage.php:163
+msgid "Verifing, please wait..."
+msgstr ""
+
+#: classes/admin/ActivationPage.php:84
+msgid ""
+"There was an error while verifing the code. Please retry in few minutes!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:85
+msgid "Activation successfully completed!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:86
+msgid "Buyer and Purchase code fields must be filled!"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:128
+msgid "Activation"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:146
+msgid ""
+"The plugin can be activate in only <strong>two</strong> domains and they "
+"cannot be unregistered. Please enter the following data and hit the "
+"activation button"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:152
+msgid "Buyer"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:153
+msgid "Insert the Envato username used to purchase the plugin."
+msgstr ""
+
+#: classes/admin/ActivationPage.php:154
+msgid "Example: vanquish"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:157
+msgid "Purchase code"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:158
+msgid ""
+"Insert the purchase code. It can be downloaded from your CodeCanyon "
+"\"Downloads\" profile page."
+msgstr ""
+
+#: classes/admin/ActivationPage.php:159
+msgid "Example: 7d7c3rt8-f512-227c-8c98-fc53c3b212fe"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:161
+msgid "Activate"
+msgstr ""
+
+#: classes/admin/ActivationPage.php:166
+msgid "The plugin has been successfully activated!"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:27
+msgid "Update process succeed!"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:28
+msgid ""
+"Error during the update process. Please retry again later or manually insert "
+"values"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:29
+msgid ""
+"Base currency has changed!<br/>Please update the rates (manually or through "
+"the \"Update rates\" button)."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:30
+msgid "Updating rates, please wait..."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:31
+msgid "Select the base currency!"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:54 classes/admin/SettingsPage.php:37
+msgid "Saved successfully!"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:59 classes/admin/SettingsPage.php:44
+msgid "Options"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:62
+msgid "Update frequency"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:63
+msgid "Select frequencies by which the rates will be updated."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:65
+msgid "Frequency"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:68
+msgid "Hourly"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:69
+msgid "Every 15 minutes"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:70
+msgid "Every 30 minutes"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:71
+msgid "Twice a day"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:72
+msgid "Daily"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:73
+msgid "Manually"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:78
+msgid "Rates"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:81
+msgid ""
+"The <strong>Default for countries</strong> option will automatically select "
+"the associated currency at fist access for any user coming from the seleted "
+"locations. User location is detected by the WooCommerce geolocator. Leave "
+"empty to ignore the option."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:82
+msgid ""
+"Leave <strong>Number of decimals</strong> option empty to use the current "
+"WooCommerce number of decimals option (set through the WooCommerce -> "
+"Settings -> General -> Currency option area)."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:83
+msgid ""
+"<strong>Symbol position</strong> Default will use the setting defined via "
+"the WooCommerce -> Settings -> General -> Currency position option. This "
+"option will not affect the Admin area."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:84
+msgid ""
+"<strong>Payment gateways</strong> Select which payment gateways are "
+"available for a currency. By default, all are available."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:85
+msgid ""
+"The <strong>Show</strong> option sets if it has to be displayed the currency "
+"symbol (example: €) or the currency code (ex.: EUR)."
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:91
+msgid "Currency"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:92
+msgid "Rate"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:93
+msgid "Is base currency"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:94
+msgid "Default for countries"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:95
+msgid "Payment gateways"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:96
+msgid "Symbol position"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:97
+msgid "Number of decimals"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:98
+msgid "Show"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:150
+msgid "Default"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:151
+msgid "Left"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:152
+msgid "Right"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:161
+msgid "Symbol"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:162
+msgid "Code"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:170
+msgid "Update rates"
+msgstr ""
+
+#: classes/admin/ExchangeRatesPage.php:177 classes/admin/SettingsPage.php:179
+msgid "Save"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:47
+msgid "Footer currency switcher"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:48
+msgid "Currency switcher can be automatically rendered in the theme footer."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:53
+msgid "Menu (before other elements)"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:58
+msgid "Menu (after other elements)"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:63
+msgid "Header"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:68
+msgid "Footer"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:73
+msgid "Menu currency switcher"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:74
+msgid ""
+"Currency switcher can be automatically rendered in any menu. In the case of "
+"WPML, the currency selector will be displayed in the selected menus and "
+"their translations."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:104
+msgid "- Before other items"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:107
+msgid "- After other items"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:114
+msgid "Switcher elements format"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:115
+#, php-format
+msgid ""
+"Set how the switcher elements will look like. The default format is "
+"<strong>%flag %currency_code %currency_symbol</strong>, You can use the "
+"following elements:"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:117
+#, php-format
+msgid "<strong>%flag:</strong> currency flag"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:118
+#, php-format
+msgid ""
+"<strong>%currency_code:</strong> currency code (ex: EUR, USD, GBP, etc.)"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:119
+#, php-format
+msgid "<strong>%currency_symbol:</strong> currency symbol (ex: €, $, £, etc.)"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:120
+#, php-format
+msgid ""
+"<strong>%currency_name:</strong> currency name (ex: Euro, United States "
+"Dollar , British Pound, etc.)"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:123
+msgid "Format"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:125
+#, php-format
+msgid "Default: %flag %currency_code %currency_symbol"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:130
+msgid "Info"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:131
+#, php-format
+msgid ""
+"Currency selector can be displayed using the special Widget you find in the "
+"<a href='%s' target='_blank'><strong>Appearance -> Widget</strong></a> menu. "
+"You can also use the custom <strong>[wcmc_currency_selector]</strong> "
+"shortcode or the following PHP snippet:"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:137
+msgid "Currecies"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:138
+msgid ""
+"Select available currencies. Once selected, go to the <strong>Exchange "
+"rates</strong> menu and <strong>make sure that the current base currency is "
+"the one you need</strong>. If you have not previously selected one, the "
+"plugin tries to detect the base currency using the store base currency."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:151
+msgid "Place orders using base currency"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:152
+msgid ""
+"By default, the orders are placed via frontend according to the currency "
+"selected by the user. If the following option is enabled, the orders will be "
+"always placed using base currency set via the <strong>Excange rates</strong> "
+"menu. This may be useful in case you are using a 3rd party payment gateway "
+"plugins that are not properly managing product prices according to the "
+"selected currency."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:156
+msgid "Place orders using base currency and prices"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:160
+msgid "Force base currency usage on the Checkout page"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:161
+msgid ""
+"This option is stronger that the previous. It forces the base currency usage "
+"by automatically switching the current currency to the base currency when "
+"the customer reaches the Checkout page. Note that when enabling this option "
+"the currency selectors won't be displayed. This may be helpful in case some "
+"payment gateways are preventing placing orders due to unsupported "
+"currencies. <strong>The orders will be placed using the base currency</"
+"strong>."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:165
+msgid "Force base currency usage on checkout page"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:169
+msgid "Disable \"?currency=\" URL parameter"
+msgstr ""
+
+#: classes/admin/SettingsPage.php:170
+msgid ""
+"By default, the plugin adds the <strong>?currency=</strong> parameter to the "
+"site URL. This prevents caching plugins to serve pages with a currency "
+"different by the selected one. <strong>Disabling this option may cause "
+"unexpected behavior when using caching plugins</strong>."
+msgstr ""
+
+#: classes/admin/SettingsPage.php:174
+msgid "Disable ?currency= parameter"
+msgstr ""
+
+#: classes/com/Cron.php:18
+msgid "Once every 15 Minutes"
+msgstr ""
+
+#: classes/com/Cron.php:24
+msgid "Once every 30 Minutes"
+msgstr ""
+
+#: classes/com/WidgetCurrencySelector.php:21
+msgid "WooCommerce Currency Selector"
+msgstr ""
+
+#: classes/com/WidgetCurrencySelector.php:24
+msgid "Currency selector"
+msgstr ""
+
+#: classes/com/WidgetCurrencySelector.php:55
+msgid "Select currency"
+msgstr ""
+
+#: classes/com/WidgetCurrencySelector.php:60
+msgid "Title:"
+msgstr ""
+
+#: woocommerce-multiple-currencies.php:52
+#, php-format
+msgid ""
+"To complete the <span style=\"color:#96588a; font-weight:bold;\">%s</span> "
+"plugin activation, you must verify your purchase license. Click <a "
+"href=\"%s\">here</a> to verify it."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: woocommerce-multiple-currencies.php:150
+msgid "WooCommerce Multiple Currencies"
+msgstr ""
+
+#: woocommerce-multiple-currencies.php:151
+msgid "WooCommerce Multiple Currencies - Settings"
+msgstr ""
+
+#: woocommerce-multiple-currencies.php:151
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-multiple-currencies.php:152
+msgid "WooCommerce Multiple Currencies - Exchange rates"
+msgstr ""
+
+#: woocommerce-multiple-currencies.php:152
+msgid "Exchange rates"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Multiple currencies management."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Lagudi Domenico"
+msgstr ""

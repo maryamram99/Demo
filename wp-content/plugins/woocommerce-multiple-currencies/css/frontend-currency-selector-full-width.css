@@ -1,0 +1,29 @@
+.wcmc_fw_currency_selector_container .select2-container--default .select2-selection--single .select2-selection__rendered 
+{
+    margin-top: 0px;
+}
+.wcmc_fw_content
+{
+	display:block;
+	margin-top: 10px;
+}
+.wcmc_fw_currency_selector_container
+{
+	display:block;
+} 
+.wcmc_fw_currency_selector
+{
+	width: 100%;
+}
+img.wcmc_fw_flag
+{
+	width: 22px;
+	height: 15px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+.wcmc_fw_loader
+{
+	margin-top: 10px;
+	display:none;
+}

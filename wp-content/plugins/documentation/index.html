@@ -1,0 +1,169 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>WooCommerce Multiple Currencies</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Lagudi Domenico">
+	<meta name="copyright" content="Lagudi Domenico">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2018-09-04T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#configuration" title="Configuration">Configuration</a></li>			
+			<li><a href="#exchange_rates" title="Exchange rate">Exchange rates</a></li>
+			<li><a href="#widget" title="Widget">Widget</a></li>
+			<li><a href="#frontend" title="Frontend">Frontend integration</a></li>
+		
+			
+
+		</ul>
+		<div id="documenter_copyright">Copyright Lagudi Domenico 2019
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>WooCommerce Multiple Currencies</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 04/04/2019</li>
+	<li>latest update: 04/04/2019</li>
+	<li>by: Lagudi Domenico</li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+		<div>
+			First download the plugin file zip file, then there are two ways for installing:</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			1) The best way to install is via the Plugins &gt; Add New Plugins section in the Wordpress Backend.</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			2) You can also manually bu unzipping plugin file in /wp-content/plugins directory</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			Once the plugin is installed please activate.</div>
+		<div>
+			</div>
+	</section>
+	
+	<section id="configuration">
+	<div class="page-header"><h3>Configuration</h3><hr class="notop"></div>
+		<p>Through the <strong>WooCommerce Multiple Currencies -> Settings</strong> you can configure where to currency switcher can be displayed. It can be automatically be displayed on any page footer or as first/last element of any menu. The
+		   switcher can be also be displayed throug the special <strong>[wcmc_currency_selector]</strong> shortcode or the <strong>wcmc_currency_selector()</strong> function.</p>
+		<p>Using the <strng>Currencies</strong> area, you have to select which currency will be available in the frontend. Once selected <strong>you have go to the Exchange rates menu</strong> and update the rates. The currencies without any rate associated <strong>won't be available</strong> on the frontend. If no base currency is set via the Exchange rates menu, currency selectors will not be visible on frontend.</p>
+	</section>
+
+	
+	<section id="exchange_rates">
+		<div class="page-header"><h3>Exchange rates</h3><hr class="notop"></div>
+		<p>
+			Through the <strong>WooCommerce Multiple Currencies -> Exchange rates</strong> menu you can set the frequency by which rates are automatically updated and set the exchange rates for the selected currencies.
+			Rates can be set manually or automatically by clicking the <strong>Update rates</strong> button.
+		</p>
+		<p>
+			Just select the base currency and update and you are ready to go! You have no need to select any exchange rates service (as happens for many other plugins). The WooCommerce Multiple Currencies 
+			relies on its own service that provides the latest exchange rates without the need for the user to pay for 3rd party services or to set any additional tricky setting!
+		</p>
+		
+	</section>
+
+	<section id="widget">
+		<div class="page-header"><h3>Widget</h3><hr class="notop"></div>
+		<p>
+		The WooCommerce Multiple Currencies allows you to render the currency swithcer using its special widget. You find it in the <strong>Appearance -> Widgets</strong> menu. Just add it to the widget area you wish!
+		</p>
+		<p><img alt="" src="assets/images/image_1.jpg" ></p>
+	</section>
+	
+	<section id="frontend">
+		<div class="page-header"><h3>Frontend integration</h3><hr class="notop"></div>
+		<p>
+		 Once selected in which position the currency selector has to be showed, the user will be able to select the preferred currency. The plugin will automatically switch the item prices.
+		</p>
+		<p><img alt="" src="assets/images/image_2.jpg" ></p>
+		
+		
+		
+		
+	</section>
+	
+	
+
+
+	</div>
+</body>
+</html>

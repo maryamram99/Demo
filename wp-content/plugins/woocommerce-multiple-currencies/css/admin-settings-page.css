@@ -1,0 +1,24 @@
+/* //rplc: wcafw */
+.wcafw_error_message {
+	display: block;
+	font-weight: bold;
+	color: #e74c3c;
+	margin-top: 10px;
+	font-size: 18px;
+}
+ul {
+	list-style: disc;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.wcmc_input
+{
+	width: 350px;
+	
+	border-radius: 15px;
+	border: none;
+	/* background: #fbfbfb; */
+	padding: 5px 15px 5px 15px;
+	margin-bottom: 10px;
+}
+

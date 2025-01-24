@@ -1,0 +1,37 @@
+.wcmc_fw_currency_selector_container .select2-container--default .select2-selection--single .select2-selection__rendered 
+{
+    margin-top: 0px;
+}
+.wcmc_ic_content
+{
+	display:block;
+	margin-top: 8px;	
+	margin-bottom: 6px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 105px;
+}
+/* .main-navigation ul.menu li.wcmc_menu_item , ul.menu li.wcmc_menu_item
+{
+	padding-left: 5px;
+} */
+.wcmc_ic_currency_selector_container 
+{
+	display: inline-block;
+}
+.wcmc_ic_currency_selector
+{
+	width: 105px;
+}
+img.wcmc_ic_flag
+{
+	width: 22px;
+	height: 15px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+.wcmc_ic_loader
+{
+	margin: 5px 0px 0px 5px;
+	display:none;
+}
